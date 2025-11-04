@@ -1,6 +1,6 @@
 # 🩺 Medical Insurance Cost Prediction using Machine Learning
 
-This is a **Streamlit web app** that predicts **medical insurance costs** based on user inputs such as age, BMI, smoking habits, region, and number of children.  
+This is a **Streamlit web app** that predicts **medical insurance costs** based on user inputs such as age,BP,Diabetes,Any transplantations,Number of surgeries.  
 The project uses **Linear Regression**, **Random Forest**, and **XGBoost** models to compare and predict premium prices.  
 It aims to provide transparent and accurate health insurance cost estimation using **Machine Learning**.
 
