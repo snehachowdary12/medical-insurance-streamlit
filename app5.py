@@ -2,13 +2,6 @@ import streamlit as st
 import pickle
 import numpy as np
 
-st.markdown(
-    """
-    <meta name="google-site-verification" content="AZiRYbiAfegVt05AsKNYUqe8TZzZhmABx_ocwoTiz2g" />
-    """,
-    unsafe_allow_html=True
-)
-
 # Load the trained model
 with open('linear_model.pkl', 'rb') as file:
     model = pickle.load(file)
@@ -42,4 +35,5 @@ if st.sidebar.button("Predict Premium"):
         <h1 style='color: darkblue;'>₹ {prediction:.2f}</h1>
     </div>
     """, unsafe_allow_html=True)
+
 
